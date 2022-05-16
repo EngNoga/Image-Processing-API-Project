@@ -8,11 +8,11 @@ Naglaa Mohammed Mohammed Hamed
 
 ### To Run My Project:
 - you will Run These Scripts:
-    1. npm install : to reinstall packages and dependencies in package.json
-    2. npm run test
-    3. npm run start
-    4. npm run build
-    5. in browser: /localhost:3000/api?filename=encenadaport&width=200&height=300
+    1. `npm install` : to reinstall packages and dependencies in package.json
+    2. `npm run test`
+    3. `npm run start`
+    4. `npm run build`
+    5. in browser: `/localhost:3000/api?filename=encenadaport&width=200&height=300`
    
 
 ### Techs:
@@ -34,31 +34,31 @@ Naglaa Mohammed Mohammed Hamed
 1. Scripts that run in terminal
    - npm init -y
    - install prettier and Eslint
-        - npm i prettier@1.19.1
-        - npm i --save-dev prettier
-        - npm i --save-dev eslint
-        - npm i --save-dev eslint-plugin-prettier
-        - npm i --save-dev eslint-config-prettier
+        - `npm i prettier@1.19.1`
+        - `npm i --save-dev prettier`
+        - `npm i --save-dev eslint`
+        - `npm i --save-dev eslint-plugin-prettier`
+        - `npm i --save-dev eslint-config-prettier`
    - install TypeScript
-        - npm i typescript
-        - npm i --save-dev typescript
-        - npm i -g ts-node
-        - npm i --save-dev ts-node
-        - npm i --save-dev @types/node
+        - `npm i typescript`
+        - `npm i --save-dev typescript`
+        - `npm i -g ts-node`
+        - `npm i --save-dev ts-node`
+        - `npm i --save-dev @types/node`
    - install Jasmine
-        - npm i jasmine
-        - npm i jasmine-spec-reporter
-        - npm i --save-dev @types/jasmine
+        - `npm i jasmine`
+        - `npm i jasmine-spec-reporter`
+        - `npm i --save-dev @types/jasmine`
    - install supertest
-        - npm i supertest
-        - npm i --save-dev @types/supertest
+        - `npm i supertest`
+        - `npm i --save-dev @types/supertest`
    - install express
-        - npm i express
-        - npm i --save-dev @types/express
-        - npm i --save-dev nodemon
+        - `npm i express`
+        - `npm i --save-dev @types/express`
+        - `npm i --save-dev nodemon`
    - install Sharp
-        - npm i sharp
-        - npm i --save-dev @types/sharp
+        - `npm i sharp`
+        - `npm i --save-dev @types/sharp`
 2. Edit package.json
    - Add scripts section
        "scripts": {
@@ -71,7 +71,7 @@ Naglaa Mohammed Mohammed Hamed
                   }
 3. TypeScript Configuration file:
    - Add tsconfig.json
-        - npx tsc --init
+        - `npx tsc --init`
    - Edit tsconfig.json
         - target :"es6"
         - module:"commonjs"
